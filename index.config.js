@@ -16,106 +16,420 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/index.config.js
-var index_config_exports = {};
-__export(index_config_exports, {
-  default: () => index_config_default
+// src/index.config.base.js
+var index_config_base_exports = {};
+__export(index_config_base_exports, {
+  default: () => index_config_base_default
 });
-module.exports = __toCommonJS(index_config_exports);
-var index_config_default = {
+module.exports = __toCommonJS(index_config_base_exports);
+var index_config_base_default = {
+  //推荐
+  likes: true,
+  //后缀
+  suffix: false,
+  //弹幕
+  live: {
+    url: [
+      {
+        "name": "b站",
+        "url": "https://sub.ottiptv.cc/bililive.m3u",
+        "ua": "AptvPlayer-UA"
+      },
+      {
+        "name": "iptv",
+        "url": "https://cdn.jsdelivr.net/gh/Kimentanm/aptv/m3u/iptv.m3u"
+      },
+      {
+        "name": "虎牙",
+        "url": "https://sub.ottiptv.cc/huyayqk.m3u"
+      },
+      {
+        "name": "斗鱼",
+        "url": "https://sub.ottiptv.cc/douyuyqk.m3u"
+      },
+      {
+        "name": "轮播",
+        "url": "https://sub.ottiptv.cc/yylunbo.m3u"
+      }
+    ]
+  },
+  //弹幕
+  danmu: {
+    urls: [{ address: "https://fjj0417.dpdns.org", name: "默认" }],
+    autoPush: true
+  },
+  //排序
+  order: ["baidu", "quark", "uc", "pan123", "tyi", "yd", "ali", "y115"],
+  //网盘
+  uc: {
+    enable: true,
+    prefix: "UC",
+    cookie: "",
+    token: ""
+  },
+  yd: {
+    enable: true,
+    prefix: "YD"
+  },
   ali: {
-    token: "",
-    token280: "token280"
+    enable: true,
+    prefix: "Ali",
+    token: ""
+  },
+  tyi: {
+    enable: true,
+    prefix: "TY",
+    username: "",
+    password: ""
   },
   quark: {
+    enable: true,
+    prefix: "Quark",
     cookie: ""
   },
-  uc: {
-    cookie: "cookie",
-    token: "token",
-    ut: "ut"
+  baidu: {
+    enable: true,
+    prefix: "Baidu",
+    cookie: ""
   },
   y115: {
+    enable: true,
+    prefix: "115",
     cookie: ""
   },
-  muou: {
+  pan123: {
+    enable: true,
+    prefix: "123",
+    username: "",
+    password: ""
+  },
+  //模板
+  template: [
+    { siteName: "lbpp", displayName: "蜡笔", defaultUrl: "https://www.labi88.sbs" },
+    { siteName: "ouge", displayName: "讴歌", defaultUrl: "https://woog.nxog.eu.org" },
+    { siteName: "huban", displayName: "虎斑", defaultUrl: "http://103.45.162.207:20720" },
+    { siteName: "xiaoer", displayName: "小二", defaultUrl: "https://erxiaofn.site" },
+    { siteName: "muou", displayName: "木偶", defaultUrl: "http://www.muou.site" },
+    { siteName: "xiaomi", displayName: "小米", defaultUrl: "http://mihdr.top" }
+  ],
+  //网站
+  age: {
+    url: ""
+  },
+  xpg: {
+    url: ""
+  },
+  dm84: {
+    url: ""
+  },
+  aowu: {
     url: ""
   },
   wogg: {
     url: ""
   },
+  gzys: {
+    url: ""
+  },
+  czzy: {
+    url: "",
+    username: "",
+    password: ""
+  },
+  xfys: {
+    url: ""
+  },
+  misou: {
+    url: ""
+  },
+  ttquan: {
+    url: ""
+  },
+  jinpai: {
+    url: ""
+  },
   leijing: {
     url: ""
   },
+  //comic
+  bengou: {
+    url: ""
+  },
+  baozimh: {
+    url: ""
+  },
+  copymanga: {
+    url: ""
+  },
+  //tg
+  panso: {
+    url: "https://so.252035.xyz,https://备用节点.com",
+    channels: "",
+    filter: {
+      include: [],
+      exclude: ["预告", "枪版", "花絮"]
+    },
+    plugins: "",
+    username: "",
+    password: "",
+    checkUrl: "https://pancheck.banye.tech:7777",
+    enableCheck: true
+  },
   tgsou: {
-    tgPic: false,
-    count: 0,
     url: "",
+    count: 0,
+    pic: false,
     channelUsername: ""
   },
-  tgchannel: {},
-  sites: {
-    list: []
+  tgchannel: {
+    url: "https://tg.gendago.cc",
+    count: 4,
+    pic: true,
+    channelUsername: "",
+    homeChannelUsername: ""
   },
-  pans: {
-    list: []
-  },
-   danmu: {
-    urls: [
-           { address: "https://logdanmu.dpdns.org", name: "默认1" },
-           { address: "https://fjj0417.dpdns.org/87654321", name: "默认2" }, 
-           { address: "https://dm.stardm.us.kg:443/87654321", name: "默认3" }, 
-           { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }, 
-           { address: "https://313236.xyz/87654321", name: "默认5" }
-          ],
-    autoPush: true
-  },
- t4: {list: [
-    {name: "🔞聚合传媒",
-      address: "https://php.doube.eu.org/spider/php/麻豆.php"}
-]},
-  cms: {list: [
-  {name: "🔞滴滴", address: "https://api.ddapi.cc/api.php/provide/vod"},
-  {name: "🔞鸡坤", address: "https://jkunzyapi.com/api.php/provide/vod"},
-  {name: "🔞TG资源", address: "https://tgzyz.pp.ua/api.php/provide/vod"},
-  {name: "🔞越南", address: "https://vnzyz.com/api.php/provide/vod"},
-  {name: "🔞奥斯卡", address: "https://aosikazy4.com/api.php/provide/vod"},
-  {name: "🔞X细胞", address: "https://www.xxibaozyw.com/api.php/provide/vod"},
-  {name: "🔞大奶子", address: "https://apidanaizi.com/api.php/provide/vod"},
-  {name: "🔞精品X", address: "https://www.jingpinx.com/api.php/provide/vod"},
-  {name: "🔞老色p", address: "https://apilsbzy1.com/api.php/provide/vod"},
-  {name: "🔞番号", address: "http://fhapi9.com/api.php/provide/vod"},
-  {name: "🔞黄色仓库", address: "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json"},
-  {name: "🔞百花", address: "https://bhziyuan.com/api.php/provide/vod/?ac=list"},
-  {name: "🔞辣椒", address: "http://lajiaozy.com/api.php/provide/vod"},
-  {name: "🔞155", address: "https://155api.com/api.php/provide/vod"},
-  {name: "🔞杏吧", address: "https://xingba111.com/api.php/provide/vod/?ac=list"},
-  {name: "🔞玉兔", address: "https://apiyutu.com/api.php/provide/vod"},
-  {name: "🔞AIvin", address: "http://lbapiby.com/api.php/provide/vod/at/json"},
-  {name: "🔞乐播", address: "https://lbapi9.com/api.php/provide/vod"},
-  {name: "🔞奶香香", address: "https://naixxzy.com/api.php/provide/vod"},
-  {name: "🔞森林", address: "http://slapibf.com/api.php/provide/vod"},
-  {name: "🔞番茄", address: "https://fqzy.me//api.php/provide/vod/?ac=list"},
-  {name: "🔞鲨鱼", address: "https://shayuapi.com/api.php/provide/vod"},
-  {name: "🔞91麻豆", address: "http://91md.me/api.php/provide/vod"},
-  {name: "🔞CK百货", address: "https://ckbh1.xyz/api.php/provide/vod/?ac=list"},
-  {name: "🔞桃花", address: "https://thzy1.me/api.php/provide/vod/?ac=list"},
-  {name: "🔞豆豆", address: "https://doudouzy.com/api.php/provide/vod/?ac=list"},
-  {name: "🔞色猫", address: "http://caiji.semaozy.net/inc/apijson_vod.php"},
-  {name: "🔞黑料X", address: "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list"},
-  {name: "🔞香蕉", address: "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list"},
-  {name: "🔞百万", address: "https://api.bwzyz.com/api.php/provide/vod/at/json"}
-]},
+  //alist
   alist: [
     {
-      name: "🐉神族九帝",
-      server: "https://alist.shenzjd.com"
+      "name": "短剧",
+      "sort": true,
+      "server": "https://cdn.modupan.com/"
     },
     {
-      name: "💢repl",
-      server: "https://ali.liucn.repl.co"
+      "name": "星梦",
+      "server": "https://pan.bashroot.top"
+    },
+    {
+      "name": "丫仙女",
+      "server": "http://localhost:5244",
+      "startPage": "/",
+      "showAll": false,
+      "sort": true,
+      "login": {
+        "username": "admin",
+        "password": "pass"
+      },
+      "params": {
+        "/abc": {
+          "password": "123"
+        },
+        "/abc/abc": {
+          "password": "123"
+        }
+      }
     }
   ],
+  //sites
+  sites: {
+    "list": [
+      {
+        "key": "nodejs_douban",
+        "name": "豆瓣",
+        "enable": true
+      },
+      {
+        "key": "nodejs_modou",
+        "name": "魔豆",
+        "enable": false
+      },
+      {
+        "key": "nodejs_newdb",
+        "name": "豆豆",
+        "enable": true
+      },
+      {
+        "key": "nodejs_wogg",
+        "name": "玩偶",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xiaoer",
+        "name": "小二",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xiaomi",
+        "name": "小米",
+        "enable": true
+      },
+      {
+        "key": "nodejs_lbpp",
+        "name": "蜡笔",
+        "enable": true
+      },
+      {
+        "key": "nodejs_duoduo",
+        "name": "多多",
+        "enable": true
+      },
+      {
+        "key": "nodejs_dawo",
+        "name": "大偶",
+        "enable": true
+      },
+      {
+        "key": "nodejs_huban",
+        "name": "虎斑",
+        "enable": true
+      },
+      {
+        "key": "nodejs_ouge",
+        "name": "讴歌",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xiafan",
+        "name": "下饭",
+        "enable": true
+      },
+      {
+        "key": "nodejs_qyys",
+        "name": "清影",
+        "enable": true
+      },
+      {
+        "key": "nodejs_muou",
+        "name": "木偶",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xpg",
+        "name": "苹果",
+        "enable": true
+      },
+      {
+        "key": "nodejs_ttquan",
+        "name": "短剧",
+        "enable": true
+      },
+      {
+        "key": "nodejs_age",
+        "name": "AGE",
+        "enable": true
+      },
+      {
+        "key": "nodejs_dm84",
+        "name": "巴士",
+        "enable": true
+      },
+      {
+        "key": "nodejs_star",
+        "name": "剧梦",
+        "enable": true
+      },
+      {
+        "key": "nodejs_aowu",
+        "name": "嗷呜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_ttian",
+        "name": "天天",
+        "enable": true
+      },
+      {
+        "key": "nodejs_gzys",
+        "name": "瓜子",
+        "enable": true
+      },
+      {
+        "key": "nodejs_jinpai",
+        "name": "金牌",
+        "enable": true
+      },
+      {
+        "key": "nodejs_xfys",
+        "name": "稀饭",
+        "enable": true
+      },
+      {
+        "key": "nodejs_czzy",
+        "name": "厂长",
+        "enable": true
+      },
+      {
+        "key": "nodejs_leijing",
+        "name": "雷鲸",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panta",
+        "name": "盘Ta",
+        "enable": true
+      },
+      {
+        "key": "nodejs_tgchannel",
+        "name": "频道",
+        "enable": true
+      },
+      {
+        "key": "nodejs_qupan",
+        "name": "趣盘",
+        "enable": true
+      },
+      {
+        "key": "nodejs_misou",
+        "name": "米搜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso",
+        "name": "盘搜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_tgsou",
+        "name": "tg搜",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_uc",
+        "name": "UC",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_aliyun",
+        "name": "阿里",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_baidu",
+        "name": "百度",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_quark",
+        "name": "夸克",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_tianyi",
+        "name": "天翼",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_mobile",
+        "name": "移动",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_123",
+        "name": "123",
+        "enable": true
+      },
+      {
+        "key": "nodejs_panso_115",
+        "name": "115",
+        "enable": true
+      },
+      {
+        "key": "nodejs_baseset",
+        "name": "配置",
+        "enable": true
+      }
+    ]
+  },
+  //主题
   color: [
     {
       light: {
