@@ -24,114 +24,28 @@ __export(index_config_exports, {
 module.exports = __toCommonJS(index_config_exports);
 var index_config_default = {
   ali: {
-    token: ""
+    token: "",
+    token280: "token280"
   },
   quark: {
     cookie: ""
   },
   uc: {
-    cookie: "",
-    token: ""
+    cookie: "cookie",
+    token: "token",
+    ut: "ut"
   },
   y115: {
     cookie: ""
   },
-  baidu: {
-    cookie: ""
-  },
-  tianyi: {
-    username: "",
-    password: ""
-  },
-  pan123: {
-    username: "",
-    password: ""
-  },
   muou: {
-    urls: [
-      "https://123.666291.xyz",
-      "https://666.666291.xyz",
-      "https://www.muou.asia",
-      "https://www.muou.site"
-    ]
+    url: ""
   },
   wogg: {
-    urls: [
-      "https://wogg.333232.xyz",
-      "https://wogg.xxooo.cf",
-      "https://woggpan.888484.xyz",
-      "https://www.wogg.lol",
-      "https://www.wogg.one"
-    ]
+    url: ""
   },
   leijing: {
-    urls: [
-      "https://www.leijing1.com",
-      "https://leijing1.com",
-      "https://www.leijing.xyz"
-    ]
-  },
-  duoduo: {
-    urls: [
-      "https://tv.214521.xyz",
-      "https://tv.yydsys.cc",
-      "https://tv.yydsys.top"
-    ]
-  },
-  zhizhen: {
-    urls: [
-      "http://www.miqk.cc",
-      "https://mihdr.top",
-      "https://www.mihdr.top",
-      "https://www.miqk.cc",
-      "https://www.zhizhenpan.fun",
-      "https://xiaomi666.fun",
-      "https://xiaomiai.site"
-    ]
-  },
-  ouge: {
-    urls: [
-      "https://woog.430520.xyz",
-      "https://woog.nxog.eu.org",
-      "https://woog.nxog.fun"
-    ]
-  },
-  labi: {
-    urls: [
-      "http://feimo.fun",
-      "http://fmao.shop",
-      "http://fmao.site",
-      "http://xiaocge.fun",
-      "http://xiaocgege.shop",
-      "https://feimao666.fun"
-    ]
-  },
-  kuaiying: {
-    urls: [
-      "http://xsayang.fun:12512",
-      "http://154.201.83.50:12512"
-    ]
-  },
-  huban: {
-    urls: [
-      "http://103.45.162.207:20720",
-      "http://154.222.27.33:20720",
-      "http://xhban.xyz:20720"
-    ]
-  },
-  erxiao: {
-    urls: [
-      "https://www.2xiaopan.top/",
-      "https://2xiaopan.top/",
-      "https://www.erxiaozhan.top/",
-      "https://www.2xiaozhan.top/",
-      "https://wexwp.cc/"
-    ]
-  },
-  shandian: {
-    urls: [
-      "https://sd.sduc.site"
-    ]
+    url: ""
   },
   tgsou: {
     tgPic: false,
@@ -146,105 +60,62 @@ var index_config_default = {
   pans: {
     list: []
   },
-  danmu: {
+   danmu: {
     urls: [
-      { address: "http://ecs.dysobo.cn:9321/87654321", name: "默认1" },
-      { address: "https://fjj0417.dpdns.org/87654321", name: "默认2" },
-      { address: "http://47.107.188.112:6008/87654321", name: "默认3" },
-      { address: "https://dmapi.8188911.xyz/87654321", name: "默认4" },
-      { address: "https://danmu.bona1984.com:99/87654321", name: "默认5" }
-    ],
-    autoPush: true,
-    autoPushBlacklist: ["bili_all", "fanqie", "liuyueting", "88kanqiu", "live"]
+           { address: "https://logdanmu.dpdns.org", name: "默认1" },
+           { address: "https://fjj0417.dpdns.org/87654321", name: "默认2" }, 
+           { address: "https://dm.stardm.us.kg:443/87654321", name: "默认3" }, 
+           { address: "https://danmu.14812910.xyz/87654321", name: "默认4" }, 
+           { address: "https://313236.xyz/87654321", name: "默认5" }
+          ],
+    autoPush: true
   },
-  t4: {
-    list: []
-  },
-  cms: {
-    list: []
-  },
-  pansou: {
-    api_urls: "https://so.252035.xyz",
-    channels: "",
-    plugins: "",
-    cloud_types: "",
-    include: "",
-    exclude: "",
-    count: 20,
-    pancheck: "",
-    pancheck_enabled: false
-  },
-  emby: [
-    {
-      name: "embysim服",
-      server: "http://192.168.50.119:8096",
-      username: "emby",
-      password: "1234",
-      deviceName: "Hills Windows",
-      client: "Hills Windows",
-      clientVersion: "0.2.3",
-      enablePlaybackReport: true
-      // 播放进度上报EMBY服务器
-    },
-    {
-      name: "示例",
-      server: "",
-      username: "",
-      password: "",
-      deviceName: "",
-      client: "",
-      clientVersion: "",
-      enablePlaybackReport: false
-    }
-  ],
-  live: [
-    {
-      name: "",
-      url: "",
-      ua: "okhttp/3.15",
-      enabled: true,
-      logoUrl: ""
-    }
-  ],
+ t4: {list: [
+    {name: "🔞聚合传媒",
+      address: "https://php.doube.eu.org/spider/php/麻豆.php"}
+]},
+  cms: {list: [
+  {name: "🔞滴滴", address: "https://api.ddapi.cc/api.php/provide/vod"},
+  {name: "🔞鸡坤", address: "https://jkunzyapi.com/api.php/provide/vod"},
+  {name: "🔞TG资源", address: "https://tgzyz.pp.ua/api.php/provide/vod"},
+  {name: "🔞越南", address: "https://vnzyz.com/api.php/provide/vod"},
+  {name: "🔞奥斯卡", address: "https://aosikazy4.com/api.php/provide/vod"},
+  {name: "🔞X细胞", address: "https://www.xxibaozyw.com/api.php/provide/vod"},
+  {name: "🔞大奶子", address: "https://apidanaizi.com/api.php/provide/vod"},
+  {name: "🔞精品X", address: "https://www.jingpinx.com/api.php/provide/vod"},
+  {name: "🔞老色p", address: "https://apilsbzy1.com/api.php/provide/vod"},
+  {name: "🔞番号", address: "http://fhapi9.com/api.php/provide/vod"},
+  {name: "🔞黄色仓库", address: "https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json"},
+  {name: "🔞百花", address: "https://bhziyuan.com/api.php/provide/vod/?ac=list"},
+  {name: "🔞辣椒", address: "http://lajiaozy.com/api.php/provide/vod"},
+  {name: "🔞155", address: "https://155api.com/api.php/provide/vod"},
+  {name: "🔞杏吧", address: "https://xingba111.com/api.php/provide/vod/?ac=list"},
+  {name: "🔞玉兔", address: "https://apiyutu.com/api.php/provide/vod"},
+  {name: "🔞AIvin", address: "http://lbapiby.com/api.php/provide/vod/at/json"},
+  {name: "🔞乐播", address: "https://lbapi9.com/api.php/provide/vod"},
+  {name: "🔞奶香香", address: "https://naixxzy.com/api.php/provide/vod"},
+  {name: "🔞森林", address: "http://slapibf.com/api.php/provide/vod"},
+  {name: "🔞番茄", address: "https://fqzy.me//api.php/provide/vod/?ac=list"},
+  {name: "🔞鲨鱼", address: "https://shayuapi.com/api.php/provide/vod"},
+  {name: "🔞91麻豆", address: "http://91md.me/api.php/provide/vod"},
+  {name: "🔞CK百货", address: "https://ckbh1.xyz/api.php/provide/vod/?ac=list"},
+  {name: "🔞桃花", address: "https://thzy1.me/api.php/provide/vod/?ac=list"},
+  {name: "🔞豆豆", address: "https://doudouzy.com/api.php/provide/vod/?ac=list"},
+  {name: "🔞色猫", address: "http://caiji.semaozy.net/inc/apijson_vod.php"},
+  {name: "🔞黑料X", address: "https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list"},
+  {name: "🔞香蕉", address: "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list"},
+  {name: "🔞百万", address: "https://api.bwzyz.com/api.php/provide/vod/at/json"}
+]},
   alist: [
     {
-      name: "测试",
-      server: "http://118.122.130.22:5678",
-      username: "",
-      password: "",
-      enabled: true
-    }
-  ],
-  webdav: [
-    {
-      name: "亿苯正经",
-      server: "https://pan.lm379.cn:443",
-      path: "/dav",
-      username: "public_dav",
-      password: "public",
-      enabled: true
+      name: "🐉神族九帝",
+      server: "https://alist.shenzjd.com"
     },
     {
-      name: "追番",
-      server: "https://zhuifan.link:443",
-      path: "/dav",
-      username: "zhuifan",
-      password: "zhuifan",
-      enabled: true
-    },
-    {
-      name: "七米兰",
-      server: "https://al.chirmyram.com",
-      path: "/dav",
-      username: "alist",
-      password: "alist",
-      enabled: true
+      name: "💢repl",
+      server: "https://ali.liucn.repl.co"
     }
   ],
-  bilibili: {
-    cookie: "",
-    classes: ""
-  },
   color: [
     {
       light: {
