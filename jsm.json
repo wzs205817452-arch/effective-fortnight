@@ -1,0 +1,1349 @@
+{
+    "spider": "./lib/XBPQ.jar",
+    "wallpaper": "https://www.loliapi.com/acg/pe/?type=img",
+    "logo": "https://raw.githubusercontent.com/yuanwangokk-1/subscribe/refs/heads/main/picture/V51.png",
+    "sites": [
+        {
+            "key": "8k雷动",
+            "name": "✨8k雷动✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/8k雷动.json"
+        },
+        {
+            "key": "91情报局",
+            "name": "✨91情报局✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/91情报局.json"
+        },
+        {
+            "key": "91网暴黑料",
+            "name": "✨91网暴黑料✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/91网暴黑料.json"
+        },
+        {
+            "key": "91网曝黑料网",
+            "name": "✨91网曝黑料网✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/91网曝黑料网.json"
+        },
+        {
+            "key": "123TV",
+            "name": "✨123TV✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/123TV.json"
+        },
+        {
+            "key": "321av",
+            "name": "✨321av✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/321av.json"
+        },
+        {
+            "key": "555电影",
+            "name": "✨555电影✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/555电影.json"
+        },
+        {
+            "key": "937影院",
+            "name": "✨937影院✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/937影院.json"
+        },
+        {
+            "key": "bigpron中文版",
+            "name": "✨bigpron中文版✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/bigpron中文版.json"
+        },
+        {
+            "key": "cat_芒芒",
+            "name": "✨cat_芒芒✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/cat_芒芒.json"
+        },
+        {
+            "key": "cat_奇奇",
+            "name": "✨cat_奇奇✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/cat_奇奇.json"
+        },
+        {
+            "key": "cat_腾腾",
+            "name": "✨cat_腾腾✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/cat_腾腾.json"
+        },
+        {
+            "key": "cat_旺旺影视",
+            "name": "✨cat_旺旺影视✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/cat_旺旺影视.json"
+        },
+        {
+            "key": "cat_优优",
+            "name": "✨cat_优优✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/cat_优优.json"
+        },
+        {
+            "key": "cat_孜然影视",
+            "name": "✨cat_孜然影视✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/cat_孜然影视.json"
+        },
+        {
+            "key": "drpy2_奇优影院",
+            "name": "✨drpy2_奇优影院✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/drpy2_奇优影院.json"
+        },
+        {
+            "key": "gigimimi",
+            "name": "✨gigimimi✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/gigimimi.json"
+        },
+        {
+            "key": "H仓库(二级_密)",
+            "name": "✨H仓库(二级_密)✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/H仓库(二级_密).json"
+        },
+        {
+            "key": "madou8",
+            "name": "✨madou8✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/madou8.json"
+        },
+        {
+            "key": "missav",
+            "name": "✨missav✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/missav.json"
+        },
+        {
+            "key": "missav.user",
+            "name": "✨missav.user✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/missav.user.json"
+        },
+        {
+            "key": "OXOX",
+            "name": "✨OXOX✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/OXOX.json"
+        },
+        {
+            "key": "P站1",
+            "name": "✨P站1✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/P站1.json"
+        },
+        {
+            "key": "P站2",
+            "name": "✨P站2✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/P站2.json"
+        },
+        {
+            "key": "P站3",
+            "name": "✨P站3✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/P站3.json"
+        },
+        {
+            "key": "Ri内测片库",
+            "name": "✨Ri内测片库✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/Ri内测片库.json"
+        },
+        {
+            "key": "SAOO",
+            "name": "✨SAOO✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/SAOO.json"
+        },
+        {
+            "key": "supjav.user",
+            "name": "✨supjav.user✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/supjav.user.json"
+        },
+        {
+            "key": "SVIP短剧[密]",
+            "name": "✨SVIP短剧[密]✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/SVIP短剧[密].json"
+        },
+        {
+            "key": "SW特级片",
+            "name": "✨SW特级片✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/SW特级片.json"
+        },
+        {
+            "key": "vuwcvuwc",
+            "name": "✨vuwcvuwc✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/vuwcvuwc.json"
+        },
+        {
+            "key": "whosTV",
+            "name": "✨whosTV✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/whosTV.json"
+        },
+        {
+            "key": "百撸影院",
+            "name": "✨百撸影院✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/百撸影院.json"
+        },
+        {
+            "key": "贝贝影院",
+            "name": "✨贝贝影院✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/贝贝影院.json"
+        },
+        {
+            "key": "布布影视",
+            "name": "✨布布影视✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/布布影视.json"
+        },
+        {
+            "key": "仓库",
+            "name": "✨仓库✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/仓库.json"
+        },
+        {
+            "key": "操能力",
+            "name": "✨操能力✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/操能力.json"
+        },
+        {
+            "key": "厂长资源",
+            "name": "✨厂长资源✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/厂长资源.json"
+        },
+        {
+            "key": "超能力",
+            "name": "✨超能力✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/超能力.json"
+        },
+        {
+            "key": "臭泥影院委员",
+            "name": "✨臭泥影院委员✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/臭泥影院委员.json"
+        },
+        {
+            "key": "大色海外版",
+            "name": "✨大色海外版✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/大色海外版.json"
+        },
+        {
+            "key": "当",
+            "name": "✨当✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/当.json"
+        },
+        {
+            "key": "嘀嗒影视",
+            "name": "✨嘀嗒影视✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/嘀嗒影视.json"
+        },
+        {
+            "key": "短剧TV_公众号-集客之家_冉神创作",
+            "name": "✨短剧TV_公众号-集客之家_冉神创作✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/短剧TV_公众号-集客之家_冉神创作.json"
+        },
+        {
+            "key": "短剧狗",
+            "name": "✨短剧狗✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/短剧狗.json"
+        },
+        {
+            "key": "短剧网",
+            "name": "✨短剧网✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/短剧网.json"
+        },
+        {
+            "key": "段老师",
+            "name": "✨段老师✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/段老师.json"
+        },
+        {
+            "key": "粉逼潮喷",
+            "name": "✨粉逼潮喷✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/粉逼潮喷.json"
+        },
+        {
+            "key": "佛跳墙",
+            "name": "✨佛跳墙✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/佛跳墙.json"
+        },
+        {
+            "key": "国产视频",
+            "name": "✨国产视频✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/国产视频.json"
+        },
+        {
+            "key": "黑鬼霸凌",
+            "name": "✨黑鬼霸凌✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/黑鬼霸凌.json"
+        },
+        {
+            "key": "黑料HD",
+            "name": "✨黑料HD✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/黑料HD.json"
+        },
+        {
+            "key": "黄色仓库",
+            "name": "✨黄色仓库✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/黄色仓库.json"
+        },
+        {
+            "key": "极乐国产",
+            "name": "✨极乐国产✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/极乐国产.json"
+        },
+        {
+            "key": "加密",
+            "name": "✨加密✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/加密.json"
+        },
+        {
+            "key": "聚合短剧[短]",
+            "name": "✨聚合短剧[短]✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/聚合短剧[短].json"
+        },
+        {
+            "key": "聚合央视[央]",
+            "name": "✨聚合央视[央]✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/聚合央视[央].json"
+        },
+        {
+            "key": "聚合音乐[听]",
+            "name": "✨聚合音乐[听]✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/聚合音乐[听].json"
+        },
+        {
+            "key": "可可影视[密]",
+            "name": "✨可可影视[密]✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/可可影视[密].json"
+        },
+        {
+            "key": "酷酷音乐[听]",
+            "name": "✨酷酷音乐[听]✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/酷酷音乐[听].json"
+        },
+        {
+            "key": "狂艹3000",
+            "name": "✨狂艹3000✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/狂艹3000.json"
+        },
+        {
+            "key": "雷电网",
+            "name": "✨雷电网✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/雷电网.json"
+        },
+        {
+            "key": "秒播影院",
+            "name": "✨秒播影院✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/秒播影院.json"
+        },
+        {
+            "key": "模板",
+            "name": "✨模板✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/模板.json"
+        },
+        {
+            "key": "模板(新)",
+            "name": "✨模板(新)✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/模板(新).json"
+        },
+        {
+            "key": "摩羯座影视",
+            "name": "✨摩羯座影视✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/摩羯座影视.json"
+        },
+        {
+            "key": "蘑菇视频乐哥",
+            "name": "✨蘑菇视频乐哥✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/蘑菇视频乐哥.json"
+        },
+        {
+            "key": "男人本色",
+            "name": "✨男人本色✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/男人本色.json"
+        },
+        {
+            "key": "泥泥视频",
+            "name": "✨泥泥视频✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/泥泥视频.json"
+        },
+        {
+            "key": "牛牛app",
+            "name": "✨牛牛app✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/牛牛app.json"
+        },
+        {
+            "key": "女神视频",
+            "name": "✨女神视频✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/女神视频.json"
+        },
+        {
+            "key": "女神学生",
+            "name": "✨女神学生✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/女神学生.json"
+        },
+        {
+            "key": "啪啪视频",
+            "name": "✨啪啪视频✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/啪啪视频.json"
+        },
+        {
+            "key": "三通一达",
+            "name": "✨三通一达✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/三通一达.json"
+        },
+        {
+            "key": "色",
+            "name": "✨色✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/色.json"
+        },
+        {
+            "key": "色诱技师",
+            "name": "✨色诱技师✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/色诱技师.json"
+        },
+        {
+            "key": "私房研究所",
+            "name": "✨私房研究所✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/私房研究所.json"
+        },
+        {
+            "key": "搜片",
+            "name": "✨搜片✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/搜片.json"
+        },
+        {
+            "key": "天天美剧",
+            "name": "✨天天美剧✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/天天美剧.json"
+        },
+        {
+            "key": "网曝热点集",
+            "name": "✨网曝热点集✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/网曝热点集.json"
+        },
+        {
+            "key": "旺旺",
+            "name": "✨旺旺✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/旺旺.json"
+        },
+        {
+            "key": "旺旺 第2版",
+            "name": "✨旺旺 第2版✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/旺旺 第2版.json"
+        },
+        {
+            "key": "无码片源",
+            "name": "✨无码片源✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/无码片源.json"
+        },
+        {
+            "key": "小Cao精品",
+            "name": "✨小Cao精品✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/小Cao精品.json"
+        },
+        {
+            "key": "小草精品",
+            "name": "✨小草精品✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/小草精品.json"
+        },
+        {
+            "key": "小蜜蜂影院",
+            "name": "✨小蜜蜂影院✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/小蜜蜂影院.json"
+        },
+        {
+            "key": "熊猫视频",
+            "name": "✨熊猫视频✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/熊猫视频.json"
+        },
+        {
+            "key": "亚色密",
+            "name": "✨亚色密✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/亚色密.json"
+        },
+        {
+            "key": "淫民社",
+            "name": "✨淫民社✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/淫民社.json"
+        },
+        {
+            "key": "淫民社1",
+            "name": "✨淫民社1✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/淫民社1.json"
+        },
+        {
+            "key": "淫民社2",
+            "name": "✨淫民社2✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/淫民社2.json"
+        },
+        {
+            "key": "樱花",
+            "name": "✨樱花✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/樱花.json"
+        },
+        {
+            "key": "樱花🌿暗黑",
+            "name": "✨樱花🌿暗黑✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/樱花🌿暗黑.json"
+        },
+        {
+            "key": "樱花🌿暗黑解码板",
+            "name": "✨樱花🌿暗黑解码板✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/樱花🌿暗黑解码板.json"
+        },
+        {
+            "key": "樱花🌿乐哥",
+            "name": "✨樱花🌿乐哥✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/樱花🌿乐哥.json"
+        },
+        {
+            "key": "影",
+            "name": "✨影✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/影.json"
+        },
+        {
+            "key": "最佳射手",
+            "name": "✨最佳射手✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/最佳射手.json"
+        },
+        {
+            "key": "最佳射手蔡老师",
+            "name": "✨最佳射手蔡老师✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/最佳射手蔡老师.json"
+        },
+        {
+            "key": "最佳射手乐哥",
+            "name": "✨最佳射手乐哥✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/最佳射手乐哥.json"
+        },
+        {
+            "key": "🔍搜TV乐哥",
+            "name": "✨🔍搜TV乐哥✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/🔍搜TV乐哥.json"
+        },
+        {
+            "key": "51吃瓜",
+            "name": "✨51吃瓜✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/51吃瓜.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "58影视APP",
+            "name": "✨58影视APP✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/58影视APP.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "91无码",
+            "name": "✨91无码✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/91无码.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "aman 漫画",
+            "name": "✨aman 漫画✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/aman 漫画.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "Chaturbate",
+            "name": "✨Chaturbate✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/Chaturbate.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "detailContent测试.py",
+            "name": "✨detailContent测试.py✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/detailContent测试.py.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "HMDJ",
+            "name": "✨HMDJ✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/HMDJ.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "HW",
+            "name": "✨HW✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/HW.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "LSYS",
+            "name": "✨LSYS✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/LSYS.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "PTT短剧",
+            "name": "✨PTT短剧✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/PTT短剧.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "Snowd节点",
+            "name": "✨Snowd节点✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/Snowd节点.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "tv2",
+            "name": "✨tv2✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/tv2.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "UVod",
+            "name": "✨UVod✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/UVod.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "whosTv",
+            "name": "✨whosTv✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/whosTv.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "xinjie",
+            "name": "✨xinjie✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/xinjie.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "yh",
+            "name": "✨yh✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/yh.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "爱看机器人",
+            "name": "✨爱看机器人✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/爱看机器人.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "爱听音乐",
+            "name": "✨爱听音乐✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/爱听音乐.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "百合影院",
+            "name": "✨百合影院✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/百合影院.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "草榴社区",
+            "name": "✨草榴社区✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/草榴社区.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "妲己",
+            "name": "✨妲己✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/妲己.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "第一动漫网",
+            "name": "✨第一动漫网✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/第一动漫网.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "电影云集[盘]",
+            "name": "✨电影云集[盘]✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/电影云集[盘].py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "短剧网",
+            "name": "✨短剧网✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/短剧网.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "枫叶音乐",
+            "name": "✨枫叶音乐✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/枫叶音乐.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "海角乱伦",
+            "name": "✨海角乱伦✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/海角乱伦.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "黄色仓库",
+            "name": "✨黄色仓库✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/黄色仓库.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "极品少女",
+            "name": "✨极品少女✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/极品少女.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "集百短剧",
+            "name": "✨集百短剧✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/集百短剧.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "金牌",
+            "name": "✨金牌✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/金牌.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "开心影院",
+            "name": "✨开心影院✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/开心影院.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "酷影",
+            "name": "✨酷影✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/酷影.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "七猫高清",
+            "name": "✨七猫高清✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/七猫高清.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "人人视频",
+            "name": "✨人人视频✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/人人视频.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "天空影视",
+            "name": "✨天空影视✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/天空影视.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "网易云音乐",
+            "name": "✨网易云音乐✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/网易云音乐.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "幸福加油站",
+            "name": "✨幸福加油站✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/幸福加油站.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "熊猫秒播",
+            "name": "✨熊猫秒播✨",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./json/熊猫秒播.py",
+            "order_num": 5,
+            "ext": ""
+        }
+    ],
+    "doh": [
+        {
+            "name": "🛡️AdGuard(去广告)",
+            "url": "https://dns.adguard-dns.com/dns-query",
+            "ips": [
+                "94.140.14.14",
+                "94.140.15.15",
+                "2a10:50c0::1",
+                "2a10:50c0::2"
+            ]
+        },
+        {
+            "name": "🚫AdGuard Family(成人过滤)",
+            "url": "https://dns-family.adguard-dns.com/dns-query",
+            "ips": [
+                "94.140.14.15",
+                "94.140.15.16",
+                "2a10:50c0::1:ff",
+                "2a10:50c0::2:ff"
+            ]
+        },
+        {
+            "name": "🧹AdGuard(无过滤-纯净)",
+            "url": "https://dns-unfiltered.adguard-dns.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141",
+                "2a10:50c0::1:9",
+                "2a10:50c0::2:9"
+            ]
+        },
+        {
+            "name": "🔞Cloudflare(家庭过滤)",
+            "url": "https://dns-family.cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.3",
+                "1.0.0.3",
+                "2606:4700:4700::1113",
+                "2606:4700:4700::1003"
+            ]
+        },
+        {
+            "name": "🧅Quad9(安全/防毒)",
+            "url": "https://dns.quad9.net/dns-query",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112",
+                "2620:fe::fe",
+                "2620:fe::9"
+            ]
+        },
+        {
+            "name": "🔐Quad9(ECN加密)",
+            "url": "https://dns.quad9.net/dns-query",
+            "ips": [
+                "9.9.9.11",
+                "149.112.112.11",
+                "2620:fe::11",
+                "2620:fe::11:1"
+            ]
+        },
+        {
+            "name": "🌪️OpenNIC(去中心化)",
+            "url": "https://dns.opennic.org/dns-query",
+            "ips": [
+                "185.121.177.177",
+                "169.239.202.202",
+                "2a05:dfc7:5::53",
+                "2a05:dfc7:5::5353"
+            ]
+        },
+        {
+            "name": "📡DNSCrypt(加密优选)",
+            "url": "https://doh.dnscrypt.net/dns-query",
+            "ips": [
+                "185.233.106.190",
+                "185.233.106.191",
+                "2a10:50c0:0:0:0:0:0:53"
+            ]
+        },
+        {
+            "name": "🌏DNS.SB(隐私防污染)",
+            "url": "https://doh.dns.sb/dns-query",
+            "ips": [
+                "185.222.222.222",
+                "185.184.222.222",
+                "2a09::"
+            ]
+        },
+        {
+            "name": "🚀Cloudflare(1.1.1.1 for Gaming)",
+            "url": "https://dns.cloudflare.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "🎮Google(游戏优化)",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.8.8",
+                "8.8.4.4",
+                "2001:4860:4860::8888",
+                "2001:4860:4860::8844"
+            ]
+        },
+        {
+            "name": "🇨🇳114(防钓鱼/安全)",
+            "url": "https://dns.114dns.com/dns-query",
+            "ips": [
+                "114.114.114.119",
+                "114.114.115.119"
+            ]
+        },
+        {
+            "name": "🇨🇳阿里云(防劫持)",
+            "url": "https://dns.alidns.com/dns-query",
+            "ips": [
+                "223.5.5.5",
+                "223.6.6.6",
+                "2400:3200::1",
+                "2400:3200:baba::1"
+            ]
+        },
+        {
+            "name": "🇨🇳DNSPod(教育网专用)",
+            "url": "https://doh.pub/dns-query",
+            "ips": [
+                "119.29.29.29"
+            ]
+        },
+        {
+            "name": "🔬Freenom(科研/实验)",
+            "url": "https://doh.freenom.world/dns-query",
+            "ips": [
+                "80.80.80.80",
+                "80.80.81.81"
+            ]
+        },
+        {
+            "name": "⚡Neustar(企业安全)",
+            "url": "https://doh.neustar.dns.com/dns-query",
+            "ips": [
+                "156.154.70.1",
+                "156.154.71.1"
+            ]
+        },
+        {
+            "name": "🛡️CIRA(加拿大盾牌)",
+            "url": "https://doh.cira.ca/dns-query",
+            "ips": [
+                "149.112.121.10",
+                "2620:10a:80bb::10"
+            ]
+        },
+        {
+            "name": "🇯🇵JP(日本开放DNS)",
+            "url": "https://dns.jp.dns-query",
+            "ips": [
+                "203.112.2.4",
+                "203.112.2.5"
+            ]
+        },
+        {
+            "name": "🌿Verisign(根服务器)",
+            "url": "https://doh.verisign.com/dns-query",
+            "ips": [
+                "64.6.64.6",
+                "64.6.65.6"
+            ]
+        },
+        {
+            "name": "🧩Level3(运营商备用)",
+            "url": "https://dns.level3.com/dns-query",
+            "ips": [
+                "4.2.2.1",
+                "4.2.2.2",
+                "4.2.2.3",
+                "4.2.2.4"
+            ]
+        }
+    ],
+    "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
+}
